@@ -1,0 +1,46 @@
+.button-form {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: .6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.5); 
+    transition: 0.3s; 
+    position: relative; 
+   background-color: #1a1a1a;
+    cursor: pointer;
+    }
+ .botton-form:active {
+    box-shadow: none; /* Убираем тень */
+    top: 3px; left: 3px; /* Смещаем кнопку вниз и вправо */
+}
+.button-contact{
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: .6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.5); 
+    transition: 0.3s; 
+    cursor: pointer;
+   }
+.botton-contact:active {
+    box-shadow: none; /* Убираем тень */
+    top: 3px; left: 3px; /* Смещаем кнопку вниз и вправо */
+}
+.close-button {
+    width: 3.375rem;
+    height: 3.375rem;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #2c363f;
+    border-radius: 50%;
+    z-index: 3;
+    background-color: #fff;
+    position: relative;
+    top: -7.5rem;
+    left: 14.5rem;
+}
